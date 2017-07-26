@@ -1,34 +1,42 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: #ff4e56;
   background-size: cover;
 }
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 760px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 75vh;
   align-items: center;
   justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .07s ease;
-  width: 10rem;
-  text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  border: .4rem solid #de4148;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: #de4148;
 }
 
 .playing {
@@ -40,6 +48,8 @@ body,html {
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .sound {
